@@ -44,7 +44,6 @@
     "ipfs-http-client": "^55.0.0",
     "isomorphic-fetch": "^3.0.0",
     "node-watch": "^0.7.1",
-    "postcss": "^8.2.6",
     "qrcode.react": "^1.0.0",
     "react": "^17.0.2",
     "react-blockies": "^1.4.1",
@@ -61,19 +60,15 @@
     "@apollo/client": "^3.3.21",
     "@testing-library/dom": "^6.12.2",
     "@types/react": "^16.9.19",
-    "autoprefixer": "^10.2.4",
+    "autoprefixer": "^10.4.2",
     "chalk": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "gulp": "^4.0.2",
-    "gulp-csso": "^4.0.1",
-    "gulp-debug": "^4.0.0",
-    "gulp-less": "^4.0.1",
-    "gulp-postcss": "^9.0.0",
-    "less-plugin-npm-import": "^2.1.0",
+    "postcss": "^8.4.6",
     "prettier": "^2.0.5",
     "s3-folder-upload": "^2.3.1",
-    "surge": "^0.21.5"
+    "surge": "^0.21.5",
+    "tailwindcss": "^3.0.19"
   },
   "eslintConfig": {
     "extends": [

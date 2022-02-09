@@ -18,6 +18,9 @@ function Home({ yourLocalBalance, readContracts }) {
   return (
     <div>
       <div style={{ margin: 32 }}>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
         <span style={{ marginRight: 8 }}>📝</span>
         This Is Your App Home. You can start editing it in{" "}
         <span

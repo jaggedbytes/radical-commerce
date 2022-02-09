@@ -1,4 +1,3 @@
-import "antd/dist/antd.css";
 import "graphiql/graphiql.min.css";
 
 import React, { useState } from "react";
