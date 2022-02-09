@@ -31,10 +31,16 @@ export default function Events({ contracts, contractName, eventName, localProvid
         bordered
         dataSource={events}
         renderItem={item => {
+          console.log(item);
           return (
-            <List.Item key={item.blockNumber + "_" + item.args.sender + "_" + item.args.purpose}>
-              <Address address={item.args[0]} ensProvider={mainnetProvider} fontSize={16} />
-              {item.args[1]}
+            <List.Item key={item.blockNumber}>
+              {item.args.taxpayerAddress} <br />
+              {item.args.single ? "True" : "False"} <br />
+              {item.args.salary.toNumber()} <br />
+              {item.args.taxRate.toNumber()} <br />
+              {item.args.taxBalance.toNumber()} <br />
+              {item.args.taxable ? "True" : "False"} <br />
+              {item.args.status}
             </List.Item>
           );
         }}
